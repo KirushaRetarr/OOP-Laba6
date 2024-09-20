@@ -19,14 +19,11 @@ namespace OOP_Laba6_0
 
         private void button1_Click(object sender, EventArgs e)
         {
-            // Получаем текст из textBox1 и textBox2
             string text = textBox1.Text;
             string substring = textBox2.Text;
 
-            // Удаляем все вхождения подстроки
             string updateText = text.Replace(substring, "");
 
-            // Выводим измененный текст обратно в textBox1
             textBox1.Text = updateText;
         }
 
